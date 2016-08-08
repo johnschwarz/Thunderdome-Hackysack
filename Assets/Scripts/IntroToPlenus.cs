@@ -16,7 +16,7 @@ public class IntroToPlenus : MonoBehaviour {
         AITUT = gameObject.GetComponentInChildren<AITut>();
     }
 
-    string[] introTexts = new string[] { "Farmers and sutff.", "ProHacker lives here", "Watch him hack!" };
+    string[] introTexts = new string[] { "All fruits and vegetables known in the galaxy are grown available.", "Jeorge the Grounded Farmer lives here", "The air is rich with oxygen, and nitrates; hermetically partitioned zones with regulated and calculated mixtures of particles exist all throughout the planet." };
     private int stringNumner = 0;
 
     private bool canSkip = true;

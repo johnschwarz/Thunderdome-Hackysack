@@ -10,7 +10,8 @@ public class IntroToTheGame : MonoBehaviour {
     [SerializeField]
     GameObject introPanel;
 
-    string[] introTexts = new string[] {"You own a sole vending machine here.","It takes in about $40 a day.","But you want to buy a spaceship...","...to expand your..." , "...vending machine empire...","...across the galaxy!" } ;
+    string[] introTexts = new string[] { "Merx was established several hundred years ago as a place where neighboring planets pooled their resources for the development and maintenance of the galactic highway’s central stop.", "The highway has been stable for centuries, and is still being developed great distances away.",
+        "This is a peaceful and culturally-aware part of the galaxy, so no laws are needed, but everyone respects and understands each other.","Bloody Mary the Drunken Ex-Space Pirate lives here" } ;
     private int stringNumner = 0;
 
     private bool canSkip = true;
